@@ -250,7 +250,7 @@ module.exports = {
     new WatchMissingNodeModulesPlugin(paths.appNodeModules),
     new webpack.ProvidePlugin({
       $: "jquery",
-      Query: "jquery",
+      jQuery: "jquery",
     }),
   ],
   // Some libraries import Node modules but don't use them in the browser.
